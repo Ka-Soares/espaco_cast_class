@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Rajdhani:wght@500&family=Roboto:ital,wght@1,300&display=swap');
+
+/* Reset das configurações gerais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, blueviolet, rgb(243, 144, 238), #ff7200, rgb(241, 234, 124),rgb(107, 245, 222));
+}
+
+#btn{
+    text-decoration: none;
+    display: flex;
+    width: 120px;
+    height: 30px;
+    margin: 2px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn:hover{
+    background-image: linear-gradient(to right,  #ff7200, rgb(241, 234, 124));
+    color: black;
+}
